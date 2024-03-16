@@ -231,6 +231,24 @@ nav .close-icon{
     align-items: center;
     justify-content: space-between;
 }
+.sobre .sobre-text{
+    width: 50%;
+    padding-right: 40px;
+}
+.sobre .sobre-text p{
+    margin: 18px 0;
+    color: #000000a6;
+}
+.sobre .sobre-img{
+    width: 50%; 
+}
+.sobre .sobre-img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+
 /* endPagina sobre*/
 @media(max-width: 830px){
     /*menu mobile*/
