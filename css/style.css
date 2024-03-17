@@ -291,6 +291,33 @@ nav .close-icon{
 .servicos .row-card-item p.descricao-servico{
     transition: 0.3s;
 } 
+/* dados*/
+.dados {
+    background-color: #d3e6fd;
+}
+.dados .container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.dados .dados-item{
+    text-align: center;
+    margin: 15px;
+    color: #000000be;
+}
+.dados .dados-item img{
+    background-color: #4f9cf9;
+    border-radius: 14px;
+    padding: 10px;
+    margin-bottom: 15px;
+    width: 80px;
+}
+.dados .dados-item p{
+    font-size: 18px;
+}
+.dados .dados-item p strong{
+    font-size: 28px;
+}
 /* end Pagina serviços*/
 @media(max-width: 830px){
     /*menu mobile*/
