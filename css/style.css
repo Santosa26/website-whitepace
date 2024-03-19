@@ -153,6 +153,7 @@ nav .close-icon{
 .cards{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .depoimentos .card-item{
     background-color: #d3e6fd;
@@ -319,6 +320,62 @@ nav .close-icon{
     font-size: 28px;
 }
 /* end Pagina serviços*/
+/* Pagina de contanto*/
+.contacto-info{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.contacto-info .left-side{
+    width: 50%;
+    padding: 30px;
+    background-color: #4f9cf9;
+    border-radius: 14px;
+    margin-right: 50px;
+    height: fit-content;
+}
+.contacto-info .left-side div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.contacto-info .left-side div i{ 
+    font-size: 17px;
+    color: white; 
+}
+.contacto-info .rigth-side{
+    width: 50%;
+}
+.contacto-info .rigth-side input{
+    display: block;
+    width: 100;
+    margin-bottom: 10px;
+    height: 47px;
+    padding: 15px;
+    border-radius: 9px;
+    transition: 0.3s;
+    border: 1px solid #f1f1f1;
+    color: #212121;
+    font-weight: lighter;
+
+}
+.contacto-info .rigth-side input:focus,
+.contacto-info .rigth-side textarea:focus{
+    border-color: #4f9cf9;
+    color: #212121;
+    border-radius: 9px;
+    margin-bottom: 10px;
+    padding: 15px;
+    width: 100%;
+    transition: 0.3s;
+    resize: none;
+}
+.contacto-info .rigth-side button{
+    border: none;
+}
+.contacto-info .rigth-side textarea{
+
+}
 @media(max-width: 830px){
     /*menu mobile*/
     .ul{
@@ -352,7 +409,66 @@ nav .close-icon{
         top: 46px;
         right: 28px;
     }
+
+/* Pagina home responsivo */
+.foco-mais .foco-mais-text{
+margin-top: 10px;
+padding: 0 20px;
+order: 1;
+}
+.foco-mais .container{
+    flex-direction: column;
+}
+.foco-mais .foco-mais-text h3{
+    font-size: 48px;
+}
+.foco-mais .faca-mais-text,
+.faca-mais .faca-mais-img{
+    width: 100%;
+}
+/* baneer responsivo*/
+.banner .banner-text{
+    padding: 0;
+    margin: 80px;
+}
+.banner .banner-text h1{
+    font-size: 80px;
+}
+.banner .banner-text p{
+    font-size: 15px;
+}
+.depoimentos .card-item {
+    width: 100%;
+}
+/*pagina sobre responsivo*/
+.sobre .container{
+    flex-direction: column-reverse;
+}
+.sobre .sobre-img,
+.sobre .sobre-text{
+    width: 100%;
+}
+.sobre .sobre-text{
+    margin-top: 40px;
+}
+/* Pagina contacto responsivo */
+.contacto .contacto-info{
+    flex-direction: column-reverse;
+}
+.contacto-info .rigth-sidem,
+.contacto-info .left-side{
+    width: 100%;
+}
+.contacto-info .rigth-side{
+    margin-bottom: 30px;
+}
+@meia (max-width:500px) {
+    .banner .banner-text h1{
+        font: size 50px;
+    }
+    .foco-mais .foco-mais-text h3{
+        font-size: 40px
+    }
 }
 
-
-
+}
