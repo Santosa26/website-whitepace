@@ -339,7 +339,7 @@ nav .close-icon{
     align-items: center;
     margin-bottom: 10px;
 }
-.contacto-info .left-side div i{ 
+.contacto-info .left-side div p{ 
     font-size: 17px;
     color: white; 
 }
@@ -348,7 +348,7 @@ nav .close-icon{
 }
 .contacto-info .rigth-side input{
     display: block;
-    width: 100;
+    width: 100%;
     margin-bottom: 10px;
     height: 47px;
     padding: 15px;
@@ -374,6 +374,14 @@ nav .close-icon{
     border: none;
 }
 .contacto-info .rigth-side textarea{
+    border: 1px solid #f1f1f1;
+    color: #212121;
+    border-radius: 9px;
+    margin-bottom: 10px;
+    padding: 15px;
+    width: 100%;
+    transition: 0.3s;
+    resize: none;
 
 }
 @media(max-width: 830px){
@@ -462,7 +470,7 @@ order: 1;
 .contacto-info .rigth-side{
     margin-bottom: 30px;
 }
-@meia (max-width:500px) {
+@media (max-width:500px) {
     .banner .banner-text h1{
         font: size 50px;
     }
